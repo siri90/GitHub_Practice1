@@ -17,7 +17,7 @@
  *    may be used to endorse or promote products derived from this software
  *    without specific prior written permission.
  *  
- *  Author : Ki-Woong Park Sejong University
+ *  Authoir : K-Woong Park Sejong University
  *  E-mail : woongbak@sejong.ac.kr
  */
 
@@ -48,7 +48,7 @@ int main()
 
 int Test_Little_Endian()
 {
-   int num;
+   int num = 0x00FF;
    int i = 0;
    for(i = 0; i<2; i++)
    {
